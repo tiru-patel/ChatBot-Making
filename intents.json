@@ -1,0 +1,53 @@
+{
+  "intents":
+          [
+            {
+              "tag": "greeting",
+              "patterns": ["Hi,how are you?","Hey!!","Hi there","Hello"],
+              "responses": ["Hello,thanks for visiting","Hey,how can I help you?","Hey there, what can I do for you?"],
+              "context_set": ""
+            },
+            {
+              "tag": "goodbye",
+              "patterns": ["Bye","See you again","got to go","GoodBye"],
+              "responses": ["GoodBye,have a nice day","Have a nice day","Bye! Come back soon","See you later, thanks for visiting"]
+            },
+            {
+              "tag": "thanks",
+              "patterns": ["Thanks","Thank You","That's helpful","Thank you very much"],
+              "responses": ["Happy to help!","Any time!","My Pleasure"]
+            },
+            {
+              "tag": "hours",
+              "patterns": ["What hours are you open?","What are your hours?","When are you open?","What are your working hours"],
+              "responses": ["We are open every day 7am-10pm","Our working hours are 7am-10pm every day"]
+            },
+            {
+              "tag": "location",
+              "patterns": ["What is your location?","Where are you located","What is your address?","Where is your restaurant located?"],
+              "responses": ["We are on the Main Road,Plot no 50, Kevadia Colony.","We are situated at the Main Road,Plot no 50, Kevadia Colony."]
+            },
+            {
+              "tag": "payments",
+              "patterns": ["Do you take credit cards?","Do you accept Mastercard?","Are you cash only?","What mode of payment you accept"],
+              "responses": ["We accept cash,VISA,Mastercard and AMEX","We accept most major cash and credit cards."]
+            },
+            {
+              "tag": "todaysmenu",
+              "patterns": ["What is your menu for today?","What are you serving today?","What is today's special"],
+              "responses": ["Today's special is Gujarati Thali","Our speciality for today is Gujarati Thali"]
+            },
+            {
+              "tag": "deliveryoption",
+              "patterns": ["Do you provide home delivery?","Do you deliver the food?","What are the home delivery options?"],
+              "responses": ["Yes,we deliver food through Zomato and UBER Eats","We have home delivery options through UBER Eats and Zomato."],
+              "context_set": "food"
+            },
+            {
+              "tag": "menu",
+              "patterns": ["What is your menu?","What are the main course options?","Can you tell me the most delicious dish from the menu?","What is today's menu?"],
+              "responses": ["You can visit www.mymenu.com for menu options","You can check out the food menu at www.mymenu.com","you can check various delicacies given in the food menu at www.mymenu.com"],
+              "context_set": "food"
+            }
+          ]
+}
